@@ -1,11 +1,3 @@
-/**
- * ============================================================================
- * PROJETO PRÁTICO INTEGRADOR — TEMA T5: Gerenciador de Tarefas com Subtarefas
- * Diretório: recursividade-em-c/src/menu.c
- * Módulo 1: Implementação de Menus Interativos, Validações e Navegação
- * ============================================================================
- */
-
 #ifdef __has_include
   #if __has_include("../include/menu.h")
     #include "../include/menu.h"

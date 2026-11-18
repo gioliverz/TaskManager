@@ -1,7 +1,7 @@
 /**
  * ============================================================================
- * PROJETO PRÁTICO INTEGRADOR — TEMA T5: Gerenciador de Tarefas com Subtarefas
- * Diretório: recursividade-em-c/include/menu.h
+ * Gerenciador de Tarefas com Subtarefas
+ * Diretório: TaskManager/include/menu.h
  * Módulo 1: Interface de Usuário e Validações via Terminal
  * ============================================================================
  */

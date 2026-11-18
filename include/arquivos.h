@@ -1,7 +1,7 @@
 /**
  * ============================================================================
- * PROJETO PRÁTICO INTEGRADOR — TEMA T5: Gerenciador de Tarefas com Subtarefas
- * Diretório: recursividade-em-c/include/arquivos.h
+ * Gerenciador de Tarefas com Subtarefas
+ * Diretório: TaskManager/include/arquivos.h
  * Módulo 3: Persistência de Dados (Binária e Relatórios Textuais)
  * ============================================================================
  */
@@ -14,15 +14,6 @@
 #define MAGIC_HEADER "TSK5"
 #define VERSAO_ARQUIVO 1
 
-/**
- * Estruturas isoladas para serialização binária em disco.
- * 
- * JUSTIFICATIVA TÉCNICA E CRÍTICA AO ESCOPO INICIAL:
- * As structs dinâmicas em memória possuem ponteiros ('Subtarefa* subtarefas' e 'Tarefa* proxima').
- * Escrever diretamente 'sizeof(Tarefa)' com fwrite salvaria endereços efêmeros de memória RAM,
- * ignorando a lista de subtarefas e gerando falha de segmentação (Segmentation Fault)
- * ao recarregar os dados. Estas structs de disco garantem serialização determinística e segura.
- */
 #pragma pack(push, 1)
 typedef struct {
     int id;

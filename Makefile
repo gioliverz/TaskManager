@@ -1,7 +1,7 @@
 # ==============================================================================
 # Makefile para Gerenciador de Tarefas com Subtarefas (C99)
 # Estrutura do projeto:
-# recursividade-em-c/
+# TaskManager/
 #   ├── .vscode/tasks.json
 #   ├── include/ (arquivos.h, menu.h, tarefas.h)
 #   ├── src/     (arquivos.c, main.c, menu.c, tarefas.c)

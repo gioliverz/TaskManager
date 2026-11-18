@@ -1,11 +1,3 @@
-/**
- * ============================================================================
- * PROJETO PRÁTICO INTEGRADOR — TEMA T5: Gerenciador de Tarefas com Subtarefas
- * Diretório: recursividade-em-c/src/arquivos.c
- * Módulo 3: Implementação da Persistência Binária e Exportação de Relatórios
- * ============================================================================
- */
-
 #ifdef __has_include
   #if __has_include("../include/arquivos.h")
     #include "../include/arquivos.h"
