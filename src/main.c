@@ -30,7 +30,7 @@
 static void semear_dados_exemplo(Tarefa** lista) {
     if (lista == NULL || *lista != NULL) return;
 
-    printf("\n[SISTEMA] Dados de demonstracao foram inseridos...\n");
+    printf("\n[SISTEMA] Dados de demonstracao foram inseridos.\n");
 
     // Tarefa 1: Projeto Integrador de C
     Tarefa* t1 = criar_tarefa(1, "Projeto Integrador de C", "19/11/2026", PRIORIDADE_ALTA);
@@ -51,15 +51,14 @@ static void semear_dados_exemplo(Tarefa** lista) {
     t2->proxima = t3;
     criar_sub(*lista, 3, 1, "Fazer backup dos arquivos na nuvem", 1);
 
-    printf("[SISTEMA] 3 tarefas de exemplo inseridas (com subtarefas)\n\n");
+    printf("[SISTEMA] 3 tarefas de exemplo foram adicionadas (com subtarefas).\n\n");
 }
 
 int main(void) {
     Tarefa* lista_geral = NULL;
 
     printf("====================================================================\n");
-    printf("              GERENCIADOR DE TAREFAS HIERARQUICO (C)        \n");
-    printf("            Disciplina: Algoritmos e Programacao em C               \n");
+    printf("                     GERENCIADOR DE TAREFAS (C)                     \n");
     printf("====================================================================\n");
 
     // Verifica se já existe base binária salva em disco
