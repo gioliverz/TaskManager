@@ -89,6 +89,7 @@ TaskManager/
 
 No powershell, git bash, cmd ou qualquer outro terminal execute: 
 ` gcc -Wall -Wextra -std=c99 -pedantic -g -Iinclude src/*.c -o gerenciador_tarefas `
+
 `./gerenciador_tarefas`
 
 #### Opção 2: Usando o Makefile 
