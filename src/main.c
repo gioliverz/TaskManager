@@ -30,10 +30,10 @@
 static void semear_dados_exemplo(Tarefa** lista) {
     if (lista == NULL || *lista != NULL) return;
 
-    printf("\n[SISTEMA] Populando dados iniciais de demonstracao...\n");
+    printf("\n[SISTEMA] Dados de demonstracao foram inseridos...\n");
 
     // Tarefa 1: Projeto Integrador de C
-    Tarefa* t1 = criar_tarefa(1, "Projeto Integrador de C", "15/11/2026", PRIORIDADE_ALTA);
+    Tarefa* t1 = criar_tarefa(1, "Projeto Integrador de C", "19/11/2026", PRIORIDADE_ALTA);
     *lista = t1;
     criar_sub(*lista, 1, 1, "Modelar structs de Data, Tarefa e Subtarefa", 1);
     criar_sub(*lista, 1, 2, "Implementar calculo recursivo de progresso", 1);
@@ -44,7 +44,7 @@ static void semear_dados_exemplo(Tarefa** lista) {
     Tarefa* t2 = criar_tarefa(2, "Estudo para Prova de Calculo", "10/11/2026", PRIORIDADE_MEDIA);
     t1->proxima = t2;
     criar_sub(*lista, 2, 1, "Revisar Integrais por Partes", 1);
-    criar_sub(*lista, 2, 2, "Resolver lista de exercicios capitulo 7", 0);
+    criar_sub(*lista, 2, 2, "Resolver lista de exercicios", 0);
 
     // Tarefa 3: Manutencao do Computador
     Tarefa* t3 = criar_tarefa(3, "Manutencao e Limpeza do PC", "20/11/2026", PRIORIDADE_BAIXA);
