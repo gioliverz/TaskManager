@@ -31,7 +31,7 @@ O **Gerenciador de Tarefas com Subtarefas** é um sistema desenvolvido em C foca
 ##  Estrutura do Repositório
 
 ```text
-recursividade-em-c/
+TaskManager/
 ├── include/            # Arquivos de cabeçalho (.h)
 │   ├── arquivos.h      # Protótipos para leitura/escrita e relatórios
 │   ├── menu.h          # Interface com o usuário e validações de input
