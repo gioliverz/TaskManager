@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * PROJETO PRÁTICO INTEGRADOR — TEMA T5: Gerenciador de Tarefas com Subtarefas
- * Diretório: recursividade-em-c/src/main.c
+ * Diretório: TaskManager/src/main.c
  * Ponto de Entrada da Aplicação e Loop Principal de Execução
  * ============================================================================
  */

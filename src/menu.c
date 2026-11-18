@@ -70,7 +70,7 @@ void exibir_mensagem(const char* mensagem) {
 
 void exibir_menu_principal(void) {
     printf("=========================================================\n");
-    printf("   GERENCIADOR DE TAREFAS HIERARQUICAS EM LINGUAGEM C    \n");
+    printf("         GERENCIADOR DE TAREFAS EM LINGUAGEM C           \n");
     printf("            (Listas Encadeadas & Recursao)               \n");
     printf("=========================================================\n");
     printf("  [1] Gerenciar Tarefas Principais\n");

@@ -327,7 +327,7 @@ int exportar_relatorio_geral_txt(const Tarefa* lista, const char* nome_arquivo_s
     }
 
     fprintf(fp, "================================================================================\n");
-    fprintf(fp, "RESUMO ESTATISTICO DO SISTEMA:\n");
+    fprintf(fp, "RESUMO ESTATISTICO:\n");
     fprintf(fp, "  Total de Tarefas Principais: %d\n", total_tarefas);
     fprintf(fp, "  Total de Subtarefas:         %d\n", total_subtarefas);
     fprintf(fp, "  Subtarefas Concluidas:       %d\n", total_concluidas);
