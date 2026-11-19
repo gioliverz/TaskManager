@@ -1,12 +1,4 @@
-#ifdef __has_include
-  #if __has_include("../include/tarefas.h")
-    #include "../include/tarefas.h"
-  #else
-    #include "tarefas.h"
-  #endif
-#else
-  #include "../include/tarefas.h"
-#endif
+#include "tarefas.h"
 
 /* ============================================================================
  * FUNÇÕES AUXILIARES DE DATAS

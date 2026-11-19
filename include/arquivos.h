@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * Gerenciador de Tarefas com Subtarefas
- * Diretório: TaskManager/include/arquivos.h
+ * Diretório: ../include/arquivos.h
  * Módulo 3: Persistência de Dados (Binária e Relatórios Textuais)
  * ============================================================================
  */

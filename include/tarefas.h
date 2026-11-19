@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * Gerenciador de Tarefas com Subtarefas
- * Diretório: TaskManager/include/tarefas.h
+ * Diretório: ../include/tarefas.h
  * Módulo 2: Implementação de Estruturas de Dados, Listas Ligadas e Recursividade
  * ============================================================================
  */

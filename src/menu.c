@@ -1,12 +1,4 @@
-#ifdef __has_include
-  #if __has_include("../include/menu.h")
-    #include "../include/menu.h"
-  #else
-    #include "menu.h"
-  #endif
-#else
-  #include "../include/menu.h"
-#endif
+#include "menu.h"
 
 static int proximo_id_tarefa = 1;
 

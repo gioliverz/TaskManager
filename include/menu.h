@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * Gerenciador de Tarefas com Subtarefas
- * Diretório: TaskManager/include/menu.h
+ * Diretório: ../include/menu.h
  * Módulo 1: Interface de Usuário e Validações via Terminal
  * ============================================================================
  */
@@ -9,9 +9,6 @@
 #ifndef MENU_H
 #define MENU_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "tarefas.h"
 #include "arquivos.h"
 

@@ -1,12 +1,4 @@
-#ifdef __has_include
-  #if __has_include("../include/arquivos.h")
-    #include "../include/arquivos.h"
-  #else
-    #include "arquivos.h"
-  #endif
-#else
-  #include "../include/arquivos.h"
-#endif
+#include "arquivos.h"
 
 int verificar_existencia_arquivo(const char* nome_arquivo) {
     if (nome_arquivo == NULL) return 0;

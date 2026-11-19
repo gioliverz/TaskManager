@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * Gerenciador de Tarefas com Subtarefas
- * Diretório: TaskManager/src/main.c
+ * Diretório: ../src/main.c
  * Ponto de Entrada da Aplicação e Loop Principal de Execução
  * ============================================================================
  */
@@ -10,21 +10,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#ifdef __has_include
-  #if __has_include("../include/tarefas.h")
-    #include "../include/tarefas.h"
-    #include "../include/arquivos.h"
-    #include "../include/menu.h"
-  #else
-    #include "tarefas.h"
-    #include "arquivos.h"
-    #include "menu.h"
-  #endif
-#else
-  #include "../include/tarefas.h"
-  #include "../include/arquivos.h"
-  #include "../include/menu.h"
-#endif
+#include "tarefas.h"
+#include "arquivos.h"
+#include "menu.h"
 
 /* Inicializa o sistema com dados demonstrativos caso não exista arquivo salvo */
 static void semear_dados_exemplo(Tarefa** lista) {
