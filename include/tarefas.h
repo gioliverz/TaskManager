@@ -9,10 +9,6 @@
 #ifndef TAREFAS_H
 #define TAREFAS_H
 
-#pragma once
-//para garantir que o arquivo seja incluído apenas uma vez
-//durante a compilação
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

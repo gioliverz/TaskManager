@@ -41,7 +41,7 @@ static void semear_dados_exemplo(Tarefa** lista) {
     criar_sub(*lista, 1, 4, "Elaborar relatorio de justificativas tecnicas", 0);
 
     // Tarefa 2: Estudo para Prova de Calculo
-    Tarefa* t2 = criar_tarefa(2, "Estudo para Prova de Calculo", "10/11/2026", PRIORIDADE_MEDIA);
+    Tarefa* t2 = criar_tarefa(2, "Estudar para prova de GA", "01/12/2026", PRIORIDADE_MEDIA);
     t1->proxima = t2;
     criar_sub(*lista, 2, 1, "Revisar Integrais por Partes", 1);
     criar_sub(*lista, 2, 2, "Resolver lista de exercicios", 0);
